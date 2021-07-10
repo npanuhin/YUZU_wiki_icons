@@ -1,4 +1,4 @@
-<h1 align="center">YUZU icons<h1>
+<h1 align="center">YUZU icons</h1>
 
 This project is intended to fill the [YUZU wiki](https://yuzu-emu.org/game/) page with game icons.
 
