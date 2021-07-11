@@ -15066,7 +15066,8 @@
         "wiki_url": "https://yuzu-emu.org/game/ultra-street-fighter-ii-the-final-challengers/",
         "compatebility": 1,
         "release_id": "01007330027EE000",
-        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/ultra-street-fighter-ii-the-final-challengers.png"
+        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/ultra-street-fighter-ii-the-final-challengers.png",
+        "icon1000": "ultra-street-fighter-ii-the-final-challengers.jpg"
     },
     "ultracore": {
         "name": "Ultracore",
@@ -15113,7 +15114,8 @@
         "wiki_url": "https://yuzu-emu.org/game/under-night-in-birth-exelatecl-r/",
         "compatebility": 1,
         "release_id": "010038C00EC34000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "under-night-in-birth-exelatecl-r.jpg"
     },
     "undermine": {
         "name": "UnderMine",
@@ -15130,7 +15132,8 @@
         "wiki_url": "https://yuzu-emu.org/game/uno-for-nintendo-switch/",
         "compatebility": 2,
         "release_id": "01005AA00372A000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "uno-for-nintendo-switch.jpg"
     },
     "unrailed": {
         "name": "Unrailed!",
@@ -15547,7 +15550,8 @@
         "wiki_url": "https://yuzu-emu.org/game/wolfenstein-youngblood/",
         "compatebility": 4,
         "release_id": "01003BD00CAAE000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "wolfenstein-youngblood.jpg"
     },
     "wolflame": {
         "name": "Wolflame",
@@ -15634,7 +15638,8 @@
         "wiki_url": "https://yuzu-emu.org/game/worldend-syndrome/",
         "compatebility": 99,
         "release_id": "010048900CF64000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "worldend-syndrome.jpg"
     },
     "worldneverland-elnea-kingdom": {
         "name": "WorldNeverland - Elnea Kingdom",
@@ -16535,7 +16540,8 @@
         "wiki_url": "https://yuzu-emu.org/game/azur-lane-crosswave/",
         "compatebility": 2,
         "release_id": "010065D012FA0000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "azur-lane-crosswave.jpg"
     },
     "azure-reflections": {
         "name": "Azure Reflections",
@@ -16812,7 +16818,8 @@
         "wiki_url": "https://yuzu-emu.org/game/broken-lines/",
         "compatebility": 1,
         "release_id": "0100A5800F6AC000\n\n\n 0100BD8011BCC000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "broken-lines.jpg"
     },
     "bubble-bobble-4-friends": {
         "name": "Bubble Bobble 4 Friends",
@@ -16849,7 +16856,8 @@
         "wiki_url": "https://yuzu-emu.org/game/cabelas-the-hunt-championship-edition/",
         "compatebility": 4,
         "release_id": "0100E24004510000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "cabelas-the-hunt-championship-edition.jpg"
     },
     "cadence-of-hyrule-crypt-of-the-necrodancer-featuring-the-legend-of-zelda": {
         "name": "Cadence of Hyrule – Crypt of the NecroDancer Featuring The Legend of Zelda",
@@ -17033,14 +17041,16 @@
         "wiki_url": "https://yuzu-emu.org/game/code-realize-future-blessings/",
         "compatebility": 0,
         "release_id": "010002400F408000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "code-realize-future-blessings.jpg"
     },
     "collar-x-malice-unlimited": {
         "name": "Collar X Malice -Unlimited-",
         "wiki_url": "https://yuzu-emu.org/game/collar-x-malice-unlimited/",
         "compatebility": 0,
         "release_id": "0100E3B00F412000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "collar-x-malice-unlimited.jpg"
     },
     "collection-of-mana": {
         "name": "Collection of Mana",
@@ -17477,7 +17487,8 @@
         "wiki_url": "https://yuzu-emu.org/game/draw-a-stickman-epic-2/",
         "compatebility": 3,
         "release_id": "010030D004F34000",
-        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/draw-a-stickman-epic-2.png"
+        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/draw-a-stickman-epic-2.png",
+        "icon1000": "draw-a-stickman-epic-2.jpg"
     },
     "dreamo": {
         "name": "DREAMO",
@@ -17714,14 +17725,16 @@
         "wiki_url": "https://yuzu-emu.org/game/final-fantasy-r-crystal-chronicles-remastered-edition/",
         "compatebility": 3,
         "release_id": "0100CE4010AAC000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "final-fantasy-r-crystal-chronicles-remastered-edition.jpg"
     },
     "fire-emblem-three-houses": {
         "name": "Fire Emblem: Three Houses",
         "wiki_url": "https://yuzu-emu.org/game/fire-emblem-three-houses/",
         "compatebility": 99,
         "release_id": "",
-        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/fire-emblem-three-houses.png"
+        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/fire-emblem-three-houses.png",
+        "icon1000": "fire-emblem-three-houses.jpg"
     },
     "fitness-boxing-2-rhythm-exercise": {
         "name": "Fitness Boxing 2: Rhythm & Exercise",
@@ -18435,7 +18448,8 @@
         "wiki_url": "https://yuzu-emu.org/game/lego-ninjago-movie-video-game/",
         "compatebility": 3,
         "release_id": "01007FC00206E000",
-        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/lego-ninjago-movie-video-game.png"
+        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/lego-ninjago-movie-video-game.png",
+        "icon1000": "lego-ninjago-movie-video-game.jpg"
     },
     "lego-the-incredibles": {
         "name": "LEGO The Incredibles",
@@ -18769,7 +18783,7 @@
         "wiki_img_url": null,
         "nsuid": "70010000000509",
         "icon_url": "https://cdn01.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_download_software/SQ_NSwitchDS_PacManVsFreeMultiplayerOnlyVer.jpg",
-        "icon1000": null
+        "icon1000": "namco-museum-pac-man-vs-free-multiplayer-only-ver.jpg"
     },
     "nba-2k-playgrounds-2": {
         "name": "NBA 2K Playgrounds 2",
@@ -18963,7 +18977,8 @@
         "wiki_url": "https://yuzu-emu.org/game/one-piece-pirate-warriors-4/",
         "compatebility": 1,
         "release_id": "01008FE00E2F6000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "one-piece-pirate-warriors-4.jpg"
     },
     "one-step-from-eden": {
         "name": "One Step From Eden",
@@ -19832,7 +19847,8 @@
         "wiki_url": "https://yuzu-emu.org/game/splatoon-2/",
         "compatebility": 2,
         "release_id": "01003BC0000A0000",
-        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/splatoon-2.png"
+        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/splatoon-2.png",
+        "icon1000": "splatoon-2.jpg"
     },
     "stardew-valley": {
         "name": "Stardew Valley",
@@ -19859,7 +19875,8 @@
         "wiki_url": "https://yuzu-emu.org/game/steinsgate-elite/",
         "compatebility": 2,
         "release_id": "010042800B880000",
-        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/steinsgate-elite.png"
+        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/steinsgate-elite.png",
+        "icon1000": "steinsgate-elite.jpg"
     },
     "steven-universe-save-the-light": {
         "name": "Steven Universe: Save the Light",
@@ -20056,7 +20073,8 @@
         "wiki_url": "https://yuzu-emu.org/game/sword-art-online-hollow-realization-deluxe-edition/",
         "compatebility": 1,
         "release_id": "0100EC400D54E000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "sword-art-online-hollow-realization-deluxe-edition.jpg"
     },
     "sword-of-the-necromancer": {
         "name": "Sword of the Necromancer",
