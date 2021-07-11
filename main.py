@@ -5,15 +5,13 @@ from os.path import isfile as os_isfile
 import sys
 sys.path.append("src")
 
-from utils import mkpath, urlToGameRef, downloadFile  # , releaseIdToNsuid
+from utils import mkpath, urlToGameRef, downloadFile
 from yuzu_wiki import getGamesList, getGame
 from nintendo_eshop import eshopNsuidAndIcon, eshopSquareIcon
 
 
 # ESHOP_GAMES = "eshop_games.json"
 YUZU_WIKI_DATA = "yuzu-games-wiki/"
-
-only_print_refs = True
 
 
 def main():
@@ -41,10 +39,6 @@ def main():
         if os_isfile(mkpath("icons1000", game["ref"] + ".jpg")):
             continue
 
-        if only_print_refs:
-            print("Image \"{}\" is not present".format(game["ref"]))
-            continue
-
         try:
             release_id, wiki_img_url = getGame(game["ref"])
 
@@ -54,7 +48,7 @@ def main():
 
             game["release_id"] = release_id
             game["nsuid"] = nsuid
-            game["wiki_img_url"] = None if wiki_img_url == "https://yuzu-emu.org/images/boxart.png" else wiki_img_url
+            game["wiki_img_url"] = wiki_img_url
 
             downloadFile(icon_url, mkpath("icons1000", game["ref"] + ".jpg"))
 
@@ -66,11 +60,10 @@ def main():
             print("Exception in game {} ({})".format(game["name"], game["ref"]))
             # print_exc()
 
-            # if index == 3:
-            #     break
+        # if index == 3:
+        #     break
 
     print("Writing database")
-
     with open("games.json", 'w', encoding="utf-8") as file:
         json_dump(games, file, ensure_ascii=False, indent=4)
         file.write('\n')
