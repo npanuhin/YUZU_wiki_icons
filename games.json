@@ -1486,7 +1486,8 @@
         "wiki_url": "https://yuzu-emu.org/game/arcade-archives-gradius-ii/",
         "compatebility": 1,
         "release_id": "0100721012F9C000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "arcade-archives-gradius-ii.jpg"
     },
     "arcade-archives-ice-climber": {
         "name": "Arcade Archives ICE CLIMBER",
@@ -1949,7 +1950,8 @@
     "atelier-lulua-~the-scion-of-arland~": {
         "name": "Atelier Lulua ~The Scion of Arland~",
         "wiki_url": "https://yuzu-emu.org/game/atelier-lulua-~the-scion-of-arland~/",
-        "compatebility": 4
+        "compatebility": 4,
+        "icon1000": "atelier-lulua-~the-scion-of-arland~.jpg"
     },
     "atelier-lydie-and-suelle-~the-alchemists-and-the-mysterious-paintings~": {
         "name": "Atelier Lydie & Suelle ~The Alchemists and the Mysterious Paintings~",
@@ -2231,7 +2233,8 @@
         "wiki_url": "https://yuzu-emu.org/game/bass-pro-shops-the-strike-championship-edition/",
         "compatebility": 4,
         "release_id": "0100E3100450E000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "bass-pro-shops-the-strike-championship-edition.jpg"
     },
     "bastion": {
         "name": "Bastion",
@@ -2458,7 +2461,8 @@
         "wiki_url": "https://yuzu-emu.org/game/bendy-and-the-ink-machine/",
         "compatebility": 0,
         "release_id": "010074500BBC4000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "bendy-and-the-ink-machine.jpg"
     },
     "big-bash-boom": {
         "name": "Big Bash Boom",
@@ -2612,7 +2616,8 @@
         "wiki_url": "https://yuzu-emu.org/game/blazblue-cross-tag-battle/",
         "compatebility": 0,
         "release_id": "0100B61008208000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "blazblue-cross-tag-battle.jpg"
     },
     "blazblue-cross-tag-battle-special-trial": {
         "name": "BLAZBLUE CROSS TAG BATTLE SPECIAL TRIAL",
@@ -2856,7 +2861,8 @@
         "wiki_url": "https://yuzu-emu.org/game/bravely-default-ii-demo/",
         "compatebility": 4,
         "release_id": "0100B6801137E000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "bravely-default-ii-demo.jpg"
     },
     "brawl": {
         "name": "BRAWL",
@@ -2903,7 +2909,8 @@
         "wiki_url": "https://yuzu-emu.org/game/breakpoint/",
         "compatebility": 0,
         "release_id": "01009380114E0000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "breakpoint.jpg"
     },
     "brick-breaker": {
         "name": "Brick Breaker",
@@ -3060,7 +3067,8 @@
         "wiki_url": "https://yuzu-emu.org/game/cafe-enchante/",
         "compatebility": 1,
         "release_id": "01005C00117A8000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "cafe-enchante.jpg"
     },
     "caged-garden-cock-robin": {
         "name": "Caged Garden Cock Robin",
@@ -3114,7 +3122,8 @@
         "wiki_url": "https://yuzu-emu.org/game/capcom-beat-em-up-bundle/",
         "compatebility": 1,
         "release_id": "010094E00B52E000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "capcom-beat-em-up-bundle.jpg"
     },
     "captain-sabertooth-and-the-magic-diamond": {
         "name": "Captain Sabertooth and the Magic Diamond",
@@ -3141,7 +3150,8 @@
         "wiki_url": "https://yuzu-emu.org/game/captain-tsubasa-rise-of-new-champions/",
         "compatebility": 2,
         "release_id": "0100EAE010560000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "captain-tsubasa-rise-of-new-champions.jpg"
     },
     "car-quest": {
         "name": "Car Quest",
@@ -3315,7 +3325,8 @@
         "wiki_url": "https://yuzu-emu.org/game/cave-story/",
         "compatebility": 1,
         "release_id": "0100B7D0022EE000",
-        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/cave-story.png"
+        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/cave-story.png",
+        "icon1000": "cave-story.jpg"
     },
     "caveman-warriors": {
         "name": "Caveman Warriors",
@@ -3546,19 +3557,22 @@
         "wiki_url": "https://yuzu-emu.org/game/cobra-kai-the-karate-kid-saga-continues/",
         "compatebility": 1,
         "release_id": "01005790110F0000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "cobra-kai-the-karate-kid-saga-continues.jpg"
     },
     "code-realize-~guardian-of-rebirth~": {
         "name": "Code: Realize ~Guardian of Rebirth~",
         "wiki_url": "https://yuzu-emu.org/game/code-realize-~guardian-of-rebirth~/",
-        "compatebility": 0
+        "compatebility": 0,
+        "icon1000": "code-realize-~guardian-of-rebirth~.jpg"
     },
     "code-realize-wintertide-miracles": {
         "name": "Code: Realize ~Wintertide Miracles~",
         "wiki_url": "https://yuzu-emu.org/game/code-realize-wintertide-miracles/",
         "compatebility": 1,
         "release_id": "0100A27013626000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "code-realize-wintertide-miracles.jpg"
     },
     "coffin-dodgers": {
         "name": "Coffin Dodgers",
@@ -3575,7 +3589,8 @@
         "wiki_url": "https://yuzu-emu.org/game/collar-x-malice/",
         "compatebility": 0,
         "release_id": "010083E00F40E000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "collar-x-malice.jpg"
     },
     "color-zen": {
         "name": "Color Zen",
@@ -3672,7 +3687,8 @@
         "wiki_url": "https://yuzu-emu.org/game/cosmic-star-heroine/",
         "compatebility": 1,
         "release_id": "010067C00A776000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "cosmic-star-heroine.jpg"
     },
     "crash-bandicoot-n-sane-trilogy": {
         "name": "Crash Bandicoot N. Sane Trilogy",
@@ -3699,7 +3715,8 @@
         "wiki_url": "https://yuzu-emu.org/game/crash-team-racing-nitro-fueled/",
         "compatebility": 99,
         "release_id": "",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "crash-team-racing-nitro-fueled.jpg"
     },
     "crawl": {
         "name": "Crawl",
@@ -4190,7 +4207,8 @@
         "wiki_url": "https://yuzu-emu.org/game/death-mark/",
         "compatebility": 3,
         "release_id": "0100D1B00B6FA000",
-        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/death-mark.png"
+        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/death-mark.png",
+        "icon1000": "death-mark.jpg"
     },
     "death-ray-manta-se": {
         "name": "Death Ray Manta SE",
@@ -4647,7 +4665,8 @@
         "wiki_url": "https://yuzu-emu.org/game/doom-r-eternal/",
         "compatebility": 5,
         "release_id": "0100B1A00D8CE000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "doom-r-eternal.jpg"
     },
     "door-kickers": {
         "name": "Door Kickers",
@@ -4674,7 +4693,8 @@
         "wiki_url": "https://yuzu-emu.org/game/double-dragon/",
         "compatebility": 1,
         "release_id": "010067C00E496000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "double-dragon.jpg"
     },
     "double-dragon-4": {
         "name": "Double Dragon 4",
@@ -4691,14 +4711,16 @@
         "wiki_url": "https://yuzu-emu.org/game/double-dragon-ii-the-revenge/",
         "compatebility": 0,
         "release_id": "0100DD900E498000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "double-dragon-ii-the-revenge.jpg"
     },
     "double-dragon-iii-the-sacred-stones": {
         "name": "DOUBLE DRAGON Ⅲ: The Sacred Stones",
         "wiki_url": "https://yuzu-emu.org/game/double-dragon-iii-the-sacred-stones/",
         "compatebility": 1,
         "release_id": "01001AD00E49A000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "double-dragon-iii-the-sacred-stones.jpg"
     },
     "doughlings-arcade": {
         "name": "Doughlings: Arcade",
@@ -5492,7 +5514,8 @@
         "wiki_url": "https://yuzu-emu.org/game/fateextella-link/",
         "compatebility": 4,
         "release_id": "01006E000C81C000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "fateextella-link.jpg"
     },
     "fateextella-the-umbral-star": {
         "name": "Fate/EXTELLA: The Umbral Star",
@@ -6096,7 +6119,8 @@
         "wiki_url": "https://yuzu-emu.org/game/fun-fun-animal-park/",
         "compatebility": 1,
         "release_id": "010002F00CC20000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "fun-fun-animal-park.jpg"
     },
     "funbox-party": {
         "name": "FunBox Party",
@@ -6133,7 +6157,8 @@
         "wiki_url": "https://yuzu-emu.org/game/fuser/",
         "compatebility": 3,
         "release_id": "010089D00E28A000\n\n\n 0100E1F013674000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "fuser.jpg"
     },
     "fuze4-nintendo-switch": {
         "name": "FUZE4 Nintendo Switch",
@@ -6390,7 +6415,8 @@
         "wiki_url": "https://yuzu-emu.org/game/ghost-parade/",
         "compatebility": 0,
         "release_id": "010094C00E180000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "ghost-parade.jpg"
     },
     "ghostbusters-the-video-game-remastered": {
         "name": "Ghostbusters: The Video Game Remastered",
@@ -7018,7 +7044,8 @@
         "wiki_url": "https://yuzu-emu.org/game/harvest-moon-r-one-world/",
         "compatebility": 2,
         "release_id": "010016B010FDE000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "harvest-moon-r-one-world.jpg"
     },
     "has-been-heroes": {
         "name": "Has-Been Heroes",
@@ -7205,7 +7232,8 @@
         "wiki_url": "https://yuzu-emu.org/game/heroland/",
         "compatebility": 3,
         "release_id": "0100C2700E338000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "heroland.jpg"
     },
     "hexagravity": {
         "name": "HexaGravity",
@@ -7686,7 +7714,8 @@
         "wiki_url": "https://yuzu-emu.org/game/ittle-dew-2/",
         "compatebility": 0,
         "release_id": "01004070022F0000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "ittle-dew-2.jpg"
     },
     "jack-n-jill-dx": {
         "name": "Jack N' Jill DX",
@@ -7843,7 +7872,8 @@
         "wiki_url": "https://yuzu-emu.org/game/jump-force-deluxe-edition/",
         "compatebility": 5,
         "release_id": "0100183010F12000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "jump-force-deluxe-edition.jpg"
     },
     "jump-king": {
         "name": "Jump King",
@@ -7960,7 +7990,8 @@
         "wiki_url": "https://yuzu-emu.org/game/katamari-damacy-reroll/",
         "compatebility": 1,
         "release_id": "0100D7000C2C6000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "katamari-damacy-reroll.jpg"
     },
     "katana-kami-a-way-of-the-samurai-story": {
         "name": "KATANA KAMI: A Way of the Samurai Story",
@@ -8177,7 +8208,8 @@
         "wiki_url": "https://yuzu-emu.org/game/kowloon-high-school-chronicle/",
         "compatebility": 5,
         "release_id": "0100FF70134BA000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "kowloon-high-school-chronicle.jpg"
     },
     "kukkorodays": {
         "name": "KukkoroDays",
@@ -8301,7 +8333,8 @@
         "wiki_url": "https://yuzu-emu.org/game/lego-city-undercover/",
         "compatebility": 3,
         "release_id": "01003A30012C0000",
-        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/lego-city-undercover.png"
+        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/lego-city-undercover.png",
+        "icon1000": "lego-city-undercover.jpg"
     },
     "lego-dc-super-villains": {
         "name": "LEGO DC Super-Villains",
@@ -8338,7 +8371,8 @@
         "wiki_url": "https://yuzu-emu.org/game/lego-marvel-super-heroes-2/",
         "compatebility": 3,
         "release_id": "0100D3A00409E000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "lego-marvel-super-heroes-2.jpg"
     },
     "lets-sing-2018": {
         "name": "Let's Sing 2018",
@@ -8432,7 +8466,8 @@
         "wiki_url": "https://yuzu-emu.org/game/little-dragons-cafe/",
         "compatebility": 1,
         "release_id": "0100A3F009142000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "little-dragons-cafe.jpg"
     },
     "little-friends-dogs-and-cats": {
         "name": "Little Friends: Dogs & Cats",
@@ -8709,7 +8744,8 @@
         "wiki_url": "https://yuzu-emu.org/game/mario-and-sonic-at-the-olympic-games-tokyo-2020/",
         "compatebility": 1,
         "release_id": "010003000E146000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "mario-and-sonic-at-the-olympic-games-tokyo-2020.jpg"
     },
     "mario-rabbids-kingdom-battle": {
         "name": "Mario + Rabbids Kingdom Battle",
@@ -8856,7 +8892,8 @@
         "wiki_url": "https://yuzu-emu.org/game/megadimension-neptunia-vii/",
         "compatebility": 3,
         "release_id": "010006F011220000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "megadimension-neptunia-vii.jpg"
     },
     "megaton-rainfall": {
         "name": "Megaton Rainfall",

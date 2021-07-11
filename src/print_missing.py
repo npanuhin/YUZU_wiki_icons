@@ -32,7 +32,7 @@ def main():
         file.write("<h2 align=\"center\">Missing icons</h2>\n\n")
         file.write("There are {} games that currently have no icons. If you found them, please submit a PR or contact me\n\n".format(len(missing)))
         file.write("{}".format(
-            "".join("- [{}]({}) ({})\n".format(game["name"], game["wiki_url"], game_ref) for game_ref, game in missing.items())
+            "".join("- [{}]({}) ({})\n".format(game["name"], game["wiki_url"], game_ref) for game_ref, game in missing.items()).replace('~', "\\~")
         ))
 
     # README.md
