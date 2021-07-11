@@ -8963,7 +8963,7 @@
         "wiki_img_url": null,
         "nsuid": "70010000032298",
         "icon_url": "https://cdn01.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_download_software/SQ_NSwitchDS_MerchantOfTheSkies.jpg",
-        "icon1000": null
+        "icon1000": "merchant-of-the-skies.jpg"
     },
     "metagal": {
         "name": "METAGAL",
@@ -9674,7 +9674,8 @@
         "wiki_url": "https://yuzu-emu.org/game/naruto-shippuden-ultimate-ninja-r-storm-4-road-to-boruto/",
         "compatebility": 5,
         "release_id": "010084D00CF5E000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "naruto-shippuden-ultimate-ninja-r-storm-4-road-to-boruto.jpg"
     },
     "naruto-ultimate-ninja-storm": {
         "name": "NARUTO: Ultimate Ninja STORM",
@@ -9746,7 +9747,8 @@
     "nelke-and-the-legendary-alchemists-~ateliers-of-the-new-world~": {
         "name": "Nelke & the Legendary Alchemists ~Ateliers of the New World~",
         "wiki_url": "https://yuzu-emu.org/game/nelke-and-the-legendary-alchemists-~ateliers-of-the-new-world~/",
-        "compatebility": 3
+        "compatebility": 3,
+        "icon1000": "nelke-and-the-legendary-alchemists-~ateliers-of-the-new-world~.jpg"
     },
     "neon-abyss": {
         "name": "Neon Abyss",
@@ -9863,7 +9865,8 @@
         "wiki_url": "https://yuzu-emu.org/game/nickelodeon-kart-racers/",
         "compatebility": 0,
         "release_id": "0100D6200933C000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "nickelodeon-kart-racers.jpg"
     },
     "nidhogg-2": {
         "name": "Nidhogg 2",
@@ -9890,7 +9893,8 @@
         "wiki_url": "https://yuzu-emu.org/game/night-trap-25th-anniversary-edition/",
         "compatebility": 4,
         "release_id": "0100D8500A692000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "night-trap-25th-anniversary-edition.jpg"
     },
     "nihilumbra": {
         "name": "Nihilumbra",
@@ -10724,7 +10728,8 @@
         "wiki_url": "https://yuzu-emu.org/game/piofiore-fated-memories/",
         "compatebility": 0,
         "release_id": "01009240117A2000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "piofiore-fated-memories.jpg"
     },
     "pitfall-planet": {
         "name": "Pitfall Planet",
@@ -11058,7 +11063,8 @@
         "wiki_url": "https://yuzu-emu.org/game/project-triangle-strategy-debut-demo/",
         "compatebility": 3,
         "release_id": "01002980140F6000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "project-triangle-strategy-debut-demo.jpg"
     },
     "project-warlock": {
         "name": "Project Warlock",
@@ -11155,7 +11161,8 @@
         "wiki_url": "https://yuzu-emu.org/game/puyo-puyo-tetris/",
         "compatebility": 0,
         "release_id": "010073C001D5E000",
-        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/puyo-puyo-tetris.png"
+        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/puyo-puyo-tetris.png",
+        "icon1000": "puyo-puyo-tetris.jpg"
     },
     "puyo-puyo-tetris-r-2": {
         "name": "Puyo Puyo™ Tetris® 2",
@@ -11642,7 +11649,8 @@
         "wiki_url": "https://yuzu-emu.org/game/river-city-ransom/",
         "compatebility": 1,
         "release_id": "0100CE300E48C000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "river-city-ransom.jpg"
     },
     "road-redemption": {
         "name": "Road Redemption",
@@ -11702,7 +11710,7 @@
         "wiki_img_url": null,
         "nsuid": "70010000027792",
         "icon_url": "https://cdn01.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_download_software/SQ_NSwitchDS_RogueRobots.jpg",
-        "icon1000": null
+        "icon1000": "rogue-robots.jpg"
     },
     "rollercoaster-tycoon-3-complete-edition": {
         "name": "RollerCoaster Tycoon 3 Complete Edition",
@@ -11809,7 +11817,8 @@
         "wiki_url": "https://yuzu-emu.org/game/rune-factory-4-special/",
         "compatebility": 3,
         "release_id": "010051D00E3A4000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "rune-factory-4-special.jpg"
     },
     "rune-lord": {
         "name": "Rune Lord",
@@ -11893,7 +11902,8 @@
         "wiki_url": "https://yuzu-emu.org/game/sakuna-of-rice-and-ruin/",
         "compatebility": 3,
         "release_id": "0100B1400E8FE000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "sakuna-of-rice-and-ruin.jpg"
     },
     "sally-face": {
         "name": "Sally Face",
@@ -11940,7 +11950,8 @@
         "wiki_url": "https://yuzu-emu.org/game/samurai-shodown/",
         "compatebility": 5,
         "release_id": "01002DF00F76C000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "samurai-shodown.jpg"
     },
     "samurai-shodown-2": {
         "name": "SAMURAI SHODOWN!2",
@@ -12201,7 +12212,8 @@
         "wiki_url": "https://yuzu-emu.org/game/senran-kagura-peach-ball/",
         "compatebility": 0,
         "release_id": "0100D1800D902000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "senran-kagura-peach-ball.jpg"
     },
     "sense-a-cyberpunk-ghost-story": {
         "name": "Sense - A Cyberpunk Ghost Story",
@@ -12705,7 +12717,8 @@
         "wiki_url": "https://yuzu-emu.org/game/snk-heroines-tag-team-frenzy/",
         "compatebility": 3,
         "release_id": "010027F00AD6C000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "snk-heroines-tag-team-frenzy.jpg"
     },
     "snooker-19": {
         "name": "Snooker 19",
@@ -12762,7 +12775,8 @@
         "wiki_url": "https://yuzu-emu.org/game/sonic-forces/",
         "compatebility": 1,
         "release_id": "01001270012B6000",
-        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/sonic-forces.png"
+        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/sonic-forces.png",
+        "icon1000": "sonic-forces.jpg"
     },
     "sonic-mania": {
         "name": "Sonic Mania",
@@ -12789,7 +12803,8 @@
         "wiki_url": "https://yuzu-emu.org/game/south-park-the-stick-of-truth/",
         "compatebility": 2,
         "release_id": "010095300B6A4000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "south-park-the-stick-of-truth.jpg"
     },
     "space-invaders-forever": {
         "name": "Space Invaders Forever",
@@ -13066,7 +13081,8 @@
         "wiki_url": "https://yuzu-emu.org/game/starlink-battle-for-atlas-digital-edition/",
         "compatebility": 4,
         "release_id": "01002CC003FE6000",
-        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/starlink-battle-for-atlas-digital-edition.png"
+        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/starlink-battle-for-atlas-digital-edition.png",
+        "icon1000": "starlink-battle-for-atlas-digital-edition.jpg"
     },
     "starship-avenger-operation-take-back-earth": {
         "name": "STARSHIP AVENGER Operation: Take Back Earth",
@@ -13183,14 +13199,16 @@
         "wiki_url": "https://yuzu-emu.org/game/story-of-seasons-friends-of-mineral-town/",
         "compatebility": 1,
         "release_id": "0100ED400EEC2000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "story-of-seasons-friends-of-mineral-town.jpg"
     },
     "story-of-seasons-pioneers-of-olive-town": {
         "name": "STORY OF SEASONS: Pioneers of Olive Town",
         "wiki_url": "https://yuzu-emu.org/game/story-of-seasons-pioneers-of-olive-town/",
         "compatebility": 1,
         "release_id": "010082E012A84000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "story-of-seasons-pioneers-of-olive-town.jpg"
     },
     "stranger-things-3-the-game": {
         "name": "Stranger Things 3: The Game",
@@ -13405,14 +13423,16 @@
         "compatebility": 4,
         "release_id": "01009C200D60E000",
         "wiki_img_url": null,
-        "nsuid": "70010000017521"
+        "nsuid": "70010000017521",
+        "icon1000": "super-meat-boy-forever.jpg"
     },
     "super-neptunia-rpg": {
         "name": "Super Neptunia RPG",
         "wiki_url": "https://yuzu-emu.org/game/super-neptunia-rpg/",
         "compatebility": 1,
         "release_id": "01004D600AC14000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "super-neptunia-rpg.jpg"
     },
     "super-nintendo-entertainment-system-nintendo-switch-online": {
         "name": "Super Nintendo Entertainment System - Nintendo Switch Online",
@@ -13489,7 +13509,8 @@
         "wiki_url": "https://yuzu-emu.org/game/superbeat-xonic/",
         "compatebility": 4,
         "release_id": "01007020044F0000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "superbeat-xonic.jpg"
     },
     "superbrothers-sword-and-sworcery-ep": {
         "name": "Superbrothers: Sword & Sworcery EP",
@@ -13796,7 +13817,8 @@
         "wiki_url": "https://yuzu-emu.org/game/team-sonic-racing/",
         "compatebility": 3,
         "release_id": "010092B0091D0000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "team-sonic-racing.jpg"
     },
     "tennis-in-the-face": {
         "name": "Tennis in the Face",
@@ -13903,7 +13925,8 @@
         "wiki_url": "https://yuzu-emu.org/game/the-binding-of-isaac-afterbirth/",
         "compatebility": 2,
         "release_id": "010021C000B6A000",
-        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/the-binding-of-isaac-afterbirth.png"
+        "wiki_img_url": "https://yuzu-emu.org/images/game/boxart/the-binding-of-isaac-afterbirth.png",
+        "icon1000": "the-binding-of-isaac-afterbirth.jpg"
     },
     "the-bridge": {
         "name": "The Bridge",
@@ -13950,7 +13973,8 @@
         "wiki_url": "https://yuzu-emu.org/game/the-coma-recut/",
         "compatebility": 2,
         "release_id": "010033100691A000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "the-coma-recut.jpg"
     },
     "the-count-lucanor": {
         "name": "The Count Lucanor",
@@ -14247,7 +14271,8 @@
         "wiki_url": "https://yuzu-emu.org/game/the-otterman-empire/",
         "compatebility": 3,
         "release_id": "01004A700DBD6000\n\n\n 0100B0101265C000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "the-otterman-empire.jpg"
     },
     "the-outer-worlds": {
         "name": "The Outer Worlds",
@@ -14404,7 +14429,8 @@
         "wiki_url": "https://yuzu-emu.org/game/the-witcher-3-wild-hunt-complete-edition/",
         "compatebility": 5,
         "release_id": "0100BFE00E9CA000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "the-witcher-3-wild-hunt-complete-edition.jpg"
     },
     "the-wonderful-101-remastered": {
         "name": "The Wonderful 101: Remastered",
@@ -14711,7 +14737,8 @@
         "wiki_url": "https://yuzu-emu.org/game/touchbattletanksp/",
         "compatebility": 1,
         "release_id": "01000EC007C22000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "touchbattletanksp.jpg"
     },
     "touhou-genso-wanderer-reloaded": {
         "name": "Touhou Genso Wanderer Reloaded",
@@ -14808,7 +14835,8 @@
         "wiki_url": "https://yuzu-emu.org/game/treachery-in-beatdown-city/",
         "compatebility": 0,
         "release_id": "0100B0600ABE6000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "treachery-in-beatdown-city.jpg"
     },
     "tri6-infinite": {
         "name": "Tri6: Infinite",
@@ -14972,7 +15000,8 @@
         "wiki_url": "https://yuzu-emu.org/game/two-point-hospital/",
         "compatebility": 2,
         "release_id": "010031200E044000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "two-point-hospital.jpg"
     },
     "typoman": {
         "name": "Typoman",
@@ -14989,7 +15018,8 @@
         "wiki_url": "https://yuzu-emu.org/game/tyr-chains-of-valhalla/",
         "compatebility": 0,
         "release_id": "01003B200C6CA000",
-        "wiki_img_url": null
+        "wiki_img_url": null,
+        "icon1000": "tyr-chains-of-valhalla.jpg"
     },
     "ubongo": {
         "name": "Ubongo",
