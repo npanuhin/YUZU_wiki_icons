@@ -25,8 +25,15 @@ def downloadFile(url, path):
     if not os_isdir(os_dirname(path)):
         makedirs(os_dirname(path))
 
+    r = req_get(url)
+
+    if r.status_code != 200:
+        return False
+
     with open(path, 'wb') as file:
-        file.write(req_get(url).content)
+        file.write(r.content)
+
+    return True
 
 
 # --- TESTING ---

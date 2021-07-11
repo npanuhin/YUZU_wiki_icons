@@ -1,4 +1,4 @@
-from skimage import io
+from PIL import Image, UnidentifiedImageError
 from os import listdir, remove as os_remove
 
 from utils import mkpath
@@ -10,18 +10,21 @@ verify_size = (1000, 1000)
 delete_damaged = False  # Warning!!!
 
 
-print("Starting...")
+print("Starting verification...")
 
 for filename in listdir(mkpath(search_path)):
-    with open(mkpath(search_path, filename), "rb") as img_file:
-        try:
-            image = io.imread(img_file)
+    try:
+        image = Image.open(mkpath(search_path, filename))
 
-            if image.shape[:2] != verify_size:
-                print("Image \"{}\" is wrong size".format(filename))
+        if image.size != verify_size:
+            print("Image \"{}\" is wrong size".format(filename))
 
-        except ValueError:
-            print("Image \"{}\" is damaged".format(filename))
+        image.close()
 
-            if delete_damaged:
-                os_remove(mkpath(search_path, filename))
+        # print(filename)
+
+    except (IOError, SyntaxError, UnidentifiedImageError):
+        print("Image \"{}\" is damaged".format(filename))
+
+        if delete_damaged:
+            os_remove(mkpath(search_path, filename))

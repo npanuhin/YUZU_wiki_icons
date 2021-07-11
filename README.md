@@ -5,11 +5,11 @@ This project is intended to fill the [YUZU wiki](https://yuzu-emu.org/game/) pag
 
 ## Requirements
 
-- Python 3 (PIP): [requests](https://pypi.org/project/requests/), [beautifulsoup4](https://pypi.org/project/beautifulsoup4/), [scikit-image](https://pypi.org/project/scikit-image)
+- Python 3 (PIP): [requests](https://pypi.org/project/requests/), [beautifulsoup4](https://pypi.org/project/beautifulsoup4/), [Pillow](https://pypi.org/project/Pillow/)
 
 Install all at once:
 ```bash
-py -3 -m pip install -U requests beautifulsoup4 scikit-image
+py -3 -m pip install -U requests beautifulsoup4 Pillow
 ```
 
 
@@ -23,10 +23,19 @@ npm install nintendo-switch-eshop
 ```
 
 
+## Usage
+
+Run `main.py` to update the entire database. You can set `force_game_update = True` to force all games to be updated.
+
+Run `src/verify.py` to make sure the 1000x1000 icons are not damaged and the correct size. You can set `delete_damaged = True` to remove damaged files (**WARNING**).
+
+Run `src/print_missing.py` to update README with missing icons.
+
+
 <!-- MISSING ICONS START -->
 <h2 align="center">Missing icons</h2>
 
-There are 161 games that currently have no icons. If you found them, please submit a PR or contact me
+There are 186 games that currently have no icons. If you found them, please submit a PR or contact me
 
 - [3D MiniGolf](https://yuzu-emu.org/game/3d-minigolf/) (3d-minigolf)
 - [60 Seconds!](https://yuzu-emu.org/game/60-seconds/) (60-seconds)
@@ -37,6 +46,8 @@ There are 161 games that currently have no icons. If you found them, please subm
 - [American Ninja Warrior: Challenge](https://yuzu-emu.org/game/american-ninja-warrior-challenge/) (american-ninja-warrior-challenge)
 - [Animal Crossing: New Horizons Island Transfer Tool](https://yuzu-emu.org/game/animal-crossing-new-horizons-island-transfer-tool/) (animal-crossing-new-horizons-island-transfer-tool)
 - [Arcade Archives GRADIUS II](https://yuzu-emu.org/game/arcade-archives-gradius-ii/) (arcade-archives-gradius-ii)
+- [Atelier Lulua ~The Scion of Arland~](https://yuzu-emu.org/game/atelier-lulua-~the-scion-of-arland~/) (atelier-lulua-~the-scion-of-arland~)
+- [Atelier Lydie & Suelle ~The Alchemists and the Mysterious Paintings~](https://yuzu-emu.org/game/atelier-lydie-and-suelle-~the-alchemists-and-the-mysterious-paintings~/) (atelier-lydie-and-suelle-~the-alchemists-and-the-mysterious-paintings~)
 - [Bass Pro Shops: The Strike - Championship Edition](https://yuzu-emu.org/game/bass-pro-shops-the-strike-championship-edition/) (bass-pro-shops-the-strike-championship-edition)
 - [Ben 10](https://yuzu-emu.org/game/ben-10/) (ben-10)
 - [Bendy and the Ink Machine](https://yuzu-emu.org/game/bendy-and-the-ink-machine/) (bendy-and-the-ink-machine)
@@ -50,15 +61,19 @@ There are 161 games that currently have no icons. If you found them, please subm
 - [Capcom Beat 'Em Up Bundle](https://yuzu-emu.org/game/capcom-beat-em-up-bundle/) (capcom-beat-em-up-bundle)
 - [Captain Tsubasa: Rise of New Champions](https://yuzu-emu.org/game/captain-tsubasa-rise-of-new-champions/) (captain-tsubasa-rise-of-new-champions)
 - [Cars 3: Driven to Win](https://yuzu-emu.org/game/cars-3-driven-to-win/) (cars-3-driven-to-win)
+- [Cave Story+](https://yuzu-emu.org/game/cave-story/) (cave-story)
 - [CHRONO CLASH: Fantasy Tactics](https://yuzu-emu.org/game/chrono-clash-fantasy-tactics/) (chrono-clash-fantasy-tactics)
 - [Clue: The Classic Mystery Game](https://yuzu-emu.org/game/clue-the-classic-mystery-game/) (clue-the-classic-mystery-game)
 - [Cobra Kai: The Karate Kid Saga Continues](https://yuzu-emu.org/game/cobra-kai-the-karate-kid-saga-continues/) (cobra-kai-the-karate-kid-saga-continues)
+- [Code: Realize ~Guardian of Rebirth~](https://yuzu-emu.org/game/code-realize-~guardian-of-rebirth~/) (code-realize-~guardian-of-rebirth~)
 - [Code: Realize ~Wintertide Miracles~](https://yuzu-emu.org/game/code-realize-wintertide-miracles/) (code-realize-wintertide-miracles)
 - [Collar X Malice](https://yuzu-emu.org/game/collar-x-malice/) (collar-x-malice)
 - [Cosmic Star Heroine](https://yuzu-emu.org/game/cosmic-star-heroine/) (cosmic-star-heroine)
 - [Crash Team Racing Nitro-Fueled](https://yuzu-emu.org/game/crash-team-racing-nitro-fueled/) (crash-team-racing-nitro-fueled)
 - [DAEMON X MACHINA: Prototype Missions](https://yuzu-emu.org/game/daemon-x-machina-prototype-missions/) (daemon-x-machina-prototype-missions)
 - [Dawn of the Breakers](https://yuzu-emu.org/game/dawn-of-the-breakers/) (dawn-of-the-breakers)
+- [de Blob 2](https://yuzu-emu.org/game/de-blob-2/) (de-blob-2)
+- [Death Mark](https://yuzu-emu.org/game/death-mark/) (death-mark)
 - [DOOM® Eternal](https://yuzu-emu.org/game/doom-r-eternal/) (doom-r-eternal)
 - [DOUBLE DRAGON](https://yuzu-emu.org/game/double-dragon/) (double-dragon)
 - [DOUBLE DRAGON Ⅱ: The Revenge](https://yuzu-emu.org/game/double-dragon-ii-the-revenge/) (double-dragon-ii-the-revenge)
@@ -76,6 +91,7 @@ There are 161 games that currently have no icons. If you found them, please subm
 - [GROOVE COASTER WAI WAI PARTY!!!!](https://yuzu-emu.org/game/groove-coaster-wai-wai-party/) (groove-coaster-wai-wai-party)
 - [Harvest Moon: Light of Hope Special Edition](https://yuzu-emu.org/game/harvest-moon-light-of-hope-special-edition/) (harvest-moon-light-of-hope-special-edition)
 - [Harvest Moon®: One World](https://yuzu-emu.org/game/harvest-moon-r-one-world/) (harvest-moon-r-one-world)
+- [Has-Been Heroes](https://yuzu-emu.org/game/has-been-heroes/) (has-been-heroes)
 - [Hello Kitty Kruisers With Sanrio Friends](https://yuzu-emu.org/game/hello-kitty-kruisers-with-sanrio-friends/) (hello-kitty-kruisers-with-sanrio-friends)
 - [Heroland](https://yuzu-emu.org/game/heroland/) (heroland)
 - [Hill Climbing Mania](https://yuzu-emu.org/game/hill-climbing-mania/) (hill-climbing-mania)
@@ -86,7 +102,9 @@ There are 161 games that currently have no icons. If you found them, please subm
 - [Just Dance 2018](https://yuzu-emu.org/game/just-dance-2018/) (just-dance-2018)
 - [Katamari Damacy REROLL](https://yuzu-emu.org/game/katamari-damacy-reroll/) (katamari-damacy-reroll)
 - [Kowloon High-School Chronicle](https://yuzu-emu.org/game/kowloon-high-school-chronicle/) (kowloon-high-school-chronicle)
+- [L.A. Noire](https://yuzu-emu.org/game/la-noire/) (la-noire)
 - [LAYTON’S MYSTERY JOURNEY: Katrielle and the Millionaires’ Conspiracy - Deluxe Edition](https://yuzu-emu.org/game/laytons-mystery-journey-katrielle-and-the-millionaires-conspiracy-deluxe-edition/) (laytons-mystery-journey-katrielle-and-the-millionaires-conspiracy-deluxe-edition)
+- [LEGO CITY Undercover](https://yuzu-emu.org/game/lego-city-undercover/) (lego-city-undercover)
 - [LEGO DC Super-Villains](https://yuzu-emu.org/game/lego-dc-super-villains/) (lego-dc-super-villains)
 - [LEGO Marvel Super Heroes 2](https://yuzu-emu.org/game/lego-marvel-super-heroes-2/) (lego-marvel-super-heroes-2)
 - [Let's Sing 2018](https://yuzu-emu.org/game/lets-sing-2018/) (lets-sing-2018)
@@ -96,19 +114,23 @@ There are 161 games that currently have no icons. If you found them, please subm
 - [Megadimension Neptunia VII](https://yuzu-emu.org/game/megadimension-neptunia-vii/) (megadimension-neptunia-vii)
 - [Merchant of the Skies](https://yuzu-emu.org/game/merchant-of-the-skies/) (merchant-of-the-skies)
 - [Minecraft: Story Mode - Season Two](https://yuzu-emu.org/game/minecraft-story-mode-season-two/) (minecraft-story-mode-season-two)
+- [Minecraft: Story Mode - The Complete Adventure](https://yuzu-emu.org/game/minecraft-story-mode-the-complete-adventure/) (minecraft-story-mode-the-complete-adventure)
 - [MotoGP18](https://yuzu-emu.org/game/motogp18/) (motogp18)
 - [MXGP3 - The Official Motocross Videogame](https://yuzu-emu.org/game/mxgp3-the-official-motocross-videogame/) (mxgp3-the-official-motocross-videogame)
 - [NARUTO SHIPPUDEN™: Ultimate Ninja® STORM 4 ROAD TO BORUTO](https://yuzu-emu.org/game/naruto-shippuden-ultimate-ninja-r-storm-4-road-to-boruto/) (naruto-shippuden-ultimate-ninja-r-storm-4-road-to-boruto)
 - [NBA 2K18](https://yuzu-emu.org/game/nba-2k18/) (nba-2k18)
 - [NBA 2K21](https://yuzu-emu.org/game/nba-2k21/) (nba-2k21)
+- [Nelke & the Legendary Alchemists ~Ateliers of the New World~](https://yuzu-emu.org/game/nelke-and-the-legendary-alchemists-~ateliers-of-the-new-world~/) (nelke-and-the-legendary-alchemists-~ateliers-of-the-new-world~)
 - [Ni no Kuni: Wrath of the White Witch](https://yuzu-emu.org/game/ni-no-kuni-wrath-of-the-white-witch/) (ni-no-kuni-wrath-of-the-white-witch)
 - [Nickelodeon Kart Racers](https://yuzu-emu.org/game/nickelodeon-kart-racers/) (nickelodeon-kart-racers)
 - [Night Trap - 25th Anniversary Edition](https://yuzu-emu.org/game/night-trap-25th-anniversary-edition/) (night-trap-25th-anniversary-edition)
+- [ONE PIECE: Unlimited World Red Deluxe Edition](https://yuzu-emu.org/game/one-piece-unlimited-world-red-deluxe-edition/) (one-piece-unlimited-world-red-deluxe-edition)
 - [Party Planet](https://yuzu-emu.org/game/party-planet/) (party-planet)
 - [Penny-Punching Princess](https://yuzu-emu.org/game/penny-punching-princess/) (penny-punching-princess)
 - [Piofiore: Fated Memories](https://yuzu-emu.org/game/piofiore-fated-memories/) (piofiore-fated-memories)
 - [Please Teach Me Onedari Shogi](https://yuzu-emu.org/game/please-teach-me-onedari-shogi/) (please-teach-me-onedari-shogi)
 - [Project TRIANGLE STRATEGY™ Debut Demo](https://yuzu-emu.org/game/project-triangle-strategy-debut-demo/) (project-triangle-strategy-debut-demo)
+- [Puyo Puyo Tetris](https://yuzu-emu.org/game/puyo-puyo-tetris/) (puyo-puyo-tetris)
 - [River City Ransom](https://yuzu-emu.org/game/river-city-ransom/) (river-city-ransom)
 - [Rogue Robots](https://yuzu-emu.org/game/rogue-robots/) (rogue-robots)
 - [Rune Factory 4 Special](https://yuzu-emu.org/game/rune-factory-4-special/) (rune-factory-4-special)
@@ -122,10 +144,13 @@ There are 161 games that currently have no icons. If you found them, please subm
 - [Smash Boats](https://yuzu-emu.org/game/smash-boats/) (smash-boats)
 - [Sniper Elite 3 Ultimate Edition](https://yuzu-emu.org/game/sniper-elite-3-ultimate-edition/) (sniper-elite-3-ultimate-edition)
 - [SNK HEROINES Tag Team Frenzy](https://yuzu-emu.org/game/snk-heroines-tag-team-frenzy/) (snk-heroines-tag-team-frenzy)
+- [SONIC FORCES](https://yuzu-emu.org/game/sonic-forces/) (sonic-forces)
+- [South Park: The Fractured but Whole - Standard Edition](https://yuzu-emu.org/game/south-park-the-fractured-but-whole-standard-edition/) (south-park-the-fractured-but-whole-standard-edition)
 - [South Park: The Stick of Truth](https://yuzu-emu.org/game/south-park-the-stick-of-truth/) (south-park-the-stick-of-truth)
 - [Space Invaders Forever](https://yuzu-emu.org/game/space-invaders-forever/) (space-invaders-forever)
 - [SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated](https://yuzu-emu.org/game/spongebob-squarepants-battle-for-bikini-bottom-rehydrated/) (spongebob-squarepants-battle-for-bikini-bottom-rehydrated)
 - [Sports Party](https://yuzu-emu.org/game/sports-party/) (sports-party)
+- [Starlink: Battle for Atlas Digital Edition](https://yuzu-emu.org/game/starlink-battle-for-atlas-digital-edition/) (starlink-battle-for-atlas-digital-edition)
 - [STORY OF SEASONS: Friends of Mineral Town](https://yuzu-emu.org/game/story-of-seasons-friends-of-mineral-town/) (story-of-seasons-friends-of-mineral-town)
 - [STORY OF SEASONS: Pioneers of Olive Town](https://yuzu-emu.org/game/story-of-seasons-pioneers-of-olive-town/) (story-of-seasons-pioneers-of-olive-town)
 - [SUPER DRAGON BALL HEROES WORLD MISSION - Launch Edition](https://yuzu-emu.org/game/super-dragon-ball-heroes-world-mission-launch-edition/) (super-dragon-ball-heroes-world-mission-launch-edition)
@@ -134,6 +159,7 @@ There are 161 games that currently have no icons. If you found them, please subm
 - [SUPERBEAT: XONiC](https://yuzu-emu.org/game/superbeat-xonic/) (superbeat-xonic)
 - [Taxi Chaos](https://yuzu-emu.org/game/taxi-chaos/) (taxi-chaos)
 - [Team Sonic Racing](https://yuzu-emu.org/game/team-sonic-racing/) (team-sonic-racing)
+- [The Binding of Isaac: Afterbirth+](https://yuzu-emu.org/game/the-binding-of-isaac-afterbirth/) (the-binding-of-isaac-afterbirth)
 - [The Coma: Recut](https://yuzu-emu.org/game/the-coma-recut/) (the-coma-recut)
 - [The Longest Five Minutes](https://yuzu-emu.org/game/the-longest-five-minutes/) (the-longest-five-minutes)
 - [The Otterman Empire](https://yuzu-emu.org/game/the-otterman-empire/) (the-otterman-empire)
@@ -145,6 +171,7 @@ There are 161 games that currently have no icons. If you found them, please subm
 - [Tri6: Infinite](https://yuzu-emu.org/game/tri6-infinite/) (tri6-infinite)
 - [Two Point Hospital](https://yuzu-emu.org/game/two-point-hospital/) (two-point-hospital)
 - [Tyr : Chains of Valhalla](https://yuzu-emu.org/game/tyr-chains-of-valhalla/) (tyr-chains-of-valhalla)
+- [Ultra Street Fighter II: The Final Challengers](https://yuzu-emu.org/game/ultra-street-fighter-ii-the-final-challengers/) (ultra-street-fighter-ii-the-final-challengers)
 - [Under Night In-Birth Exe:Late[cl-r]](https://yuzu-emu.org/game/under-night-in-birth-exelatecl-r/) (under-night-in-birth-exelatecl-r)
 - [UNO for Nintendo Switch](https://yuzu-emu.org/game/uno-for-nintendo-switch/) (uno-for-nintendo-switch)
 - [Unravel Two](https://yuzu-emu.org/game/unravel-two/) (unravel-two)
@@ -163,11 +190,16 @@ There are 161 games that currently have no icons. If you found them, please subm
 - [Cartoon Network: Battle Crashers](https://yuzu-emu.org/game/cartoon-network-battle-crashers/) (cartoon-network-battle-crashers)
 - [Code: Realize ~Future Blessings~](https://yuzu-emu.org/game/code-realize-future-blessings/) (code-realize-future-blessings)
 - [Collar X Malice -Unlimited-](https://yuzu-emu.org/game/collar-x-malice-unlimited/) (collar-x-malice-unlimited)
+- [de Blob](https://yuzu-emu.org/game/de-blob/) (de-blob)
 - [Disney Classic Games: Aladdin and The Lion King](https://yuzu-emu.org/game/disney-classic-games-aladdin-and-the-lion-king/) (disney-classic-games-aladdin-and-the-lion-king)
+- [Draw a Stickman: EPIC 2](https://yuzu-emu.org/game/draw-a-stickman-epic-2/) (draw-a-stickman-epic-2)
 - [FIFA 21 Nintendo Switch™ Legacy Edition](https://yuzu-emu.org/game/fifa-21-nintendo-switch-legacy-edition/) (fifa-21-nintendo-switch-legacy-edition)
 - [FINAL FANTASY® CRYSTAL CHRONICLES™ Remastered Edition](https://yuzu-emu.org/game/final-fantasy-r-crystal-chronicles-remastered-edition/) (final-fantasy-r-crystal-chronicles-remastered-edition)
+- [Fire Emblem: Three Houses](https://yuzu-emu.org/game/fire-emblem-three-houses/) (fire-emblem-three-houses)
 - [KILL la KILL -IF](https://yuzu-emu.org/game/kill-la-kill-if/) (kill-la-kill-if)
+- [LEGO NINJAGO Movie Video Game](https://yuzu-emu.org/game/lego-ninjago-movie-video-game/) (lego-ninjago-movie-video-game)
 - [LEGO The Incredibles](https://yuzu-emu.org/game/lego-the-incredibles/) (lego-the-incredibles)
+- [LEGO Worlds](https://yuzu-emu.org/game/lego-worlds/) (lego-worlds)
 - [Monster Energy Supercross - The Official Videogame](https://yuzu-emu.org/game/monster-energy-supercross-the-official-videogame/) (monster-energy-supercross-the-official-videogame)
 - [Monster Jam Crush It!](https://yuzu-emu.org/game/monster-jam-crush-it/) (monster-jam-crush-it)
 - [NAMCO MUSEUM (PAC-MAN VS. Free Multiplayer-only Ver.)](https://yuzu-emu.org/game/namco-museum-pac-man-vs-free-multiplayer-only-ver/) (namco-museum-pac-man-vs-free-multiplayer-only-ver)
@@ -181,6 +213,8 @@ There are 161 games that currently have no icons. If you found them, please subm
 - [SEGA Genesis Classics](https://yuzu-emu.org/game/sega-genesis-classics/) (sega-genesis-classics)
 - [Skellboy](https://yuzu-emu.org/game/skellboy/) (skellboy)
 - [Slot](https://yuzu-emu.org/game/slot/) (slot)
+- [Splatoon 2](https://yuzu-emu.org/game/splatoon-2/) (splatoon-2)
+- [STEINS;GATE ELITE](https://yuzu-emu.org/game/steinsgate-elite/) (steinsgate-elite)
 - [Street Fighter 30th Anniversary Collection](https://yuzu-emu.org/game/street-fighter-30th-anniversary-collection/) (street-fighter-30th-anniversary-collection)
 - [Super Chariot](https://yuzu-emu.org/game/super-chariot/) (super-chariot)
 - [Super Street: Racer](https://yuzu-emu.org/game/super-street-racer/) (super-street-racer)

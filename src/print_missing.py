@@ -1,45 +1,27 @@
 from os.path import isfile as os_isfile
+from json import load as json_load
 
-from utils import mkpath, urlToGameRef
-from yuzu_wiki import getGamesList, getGame
+# from utils import mkpath, urlToGameRef
+# from yuzu_wiki import getGamesList, getGame
 
-from time import sleep
+
+# --- SETTINGS --- #
+
+game_database = "../games.json"
+
+# --- SETTINGS --- #
 
 
 def main():
-    print("Getting games list...")
+    if not os_isfile(game_database):
+        raise FileNotFoundError("Game database not found")
 
-    games = getGamesList()
+    with open(game_database, 'r', encoding="utf-8") as file:
+        games = json_load(file)
 
-    games = [
-        {
-            "name": game[0],
-            "ref": urlToGameRef(game[1]),
-            "wiki_url": game[1],
-        }
-        for game in games
-    ]
-    missing = []
-
-    print("Collecting game data...")
-
-    for index, game in enumerate(games):
-        if os_isfile(mkpath("../icons1000", game["ref"] + ".jpg")):
-            continue
-
-        try:
-            release_id, wiki_img_url = getGame(game["ref"])
-
-            if wiki_img_url is None:
-                print("Icon \"{}\" is not present".format(game["ref"]))
-
-                missing.append(game)
-
-            print("{}/{} ({}) completed".format(index + 1, len(games), game["ref"]))
-
-        except Exception:
-            print("Exception in game {} ({})".format(game["name"], game["ref"]))
-            # print_exc()
+    missing = {
+        game_ref: game for game_ref, game in games.items() if "icon1000" not in game or game["icon1000"] is None
+    }
 
     if not missing:
         return
@@ -50,7 +32,7 @@ def main():
         file.write("<h2 align=\"center\">Missing icons</h2>\n\n")
         file.write("There are {} games that currently have no icons. If you found them, please submit a PR or contact me\n\n".format(len(missing)))
         file.write("{}".format(
-            "".join("- [{}]({}) ({})\n".format(game["name"], game["wiki_url"], game["ref"]) for game in missing)
+            "".join("- [{}]({}) ({})\n".format(game["name"], game["wiki_url"], game_ref) for game_ref, game in missing.items())
         ))
 
     # README.md
