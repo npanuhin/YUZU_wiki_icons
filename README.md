@@ -3,6 +3,13 @@
 This project is intended to fill the [YUZU wiki](https://yuzu-emu.org/game/) page with game icons.
 
 
+## About
+
+Game icons were sourced from Nintendo eShop mostly by script with 1000x1000 resolution and PNG format. You can find them [here](icons1000). However, there are exceptions: some icons were taken by hand, some have a different resolution.
+
+The icons were then downscaled with Photoshop to 256x256 PNG images. You can find them [here](icons256). 
+
+
 ## Requirements
 
 - Python 3 (PIP): [requests](https://pypi.org/project/requests/), [beautifulsoup4](https://pypi.org/project/beautifulsoup4/), [Pillow](https://pypi.org/project/Pillow/)
@@ -35,7 +42,7 @@ Run `src/print_missing.py` to update README with missing icons.
 <!-- MISSING ICONS START -->
 <h2 align="center">Missing icons</h2>
 
-There are 98 games that currently have no icons. If you found them, please submit a PR or contact me
+There are 98 games that currently have no icons. If you found them, please open a new GitHub issue, submit a PR or contact me
 
 - [3D MiniGolf](https://yuzu-emu.org/game/3d-minigolf/) (3d-minigolf)
 - [60 Seconds!](https://yuzu-emu.org/game/60-seconds/) (60-seconds)

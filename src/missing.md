@@ -1,6 +1,6 @@
 <h2 align="center">Missing icons</h2>
 
-There are 98 games that currently have no icons. If you found them, please submit a PR or contact me
+There are 98 games that currently have no icons. If you found them, please open a new GitHub issue, submit a PR or contact me
 
 - [3D MiniGolf](https://yuzu-emu.org/game/3d-minigolf/) (3d-minigolf)
 - [60 Seconds!](https://yuzu-emu.org/game/60-seconds/) (60-seconds)
